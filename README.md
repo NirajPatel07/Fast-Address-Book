@@ -44,7 +44,12 @@ The application will start and be accessible at ```http://localhost:8000/docs#/`
 
 ## API Endpoints
 
+![Home](https://github.com/NirajPatel07/Fast-Address-Book/assets/66070865/9a8bf3e1-7b26-40fd-b281-9e4b8db1d8eb)
+
 ### 1. Create an Address
+
+![create address](https://github.com/NirajPatel07/Fast-Address-Book/assets/66070865/fb81db47-949e-4773-9fc8-1b023465f854)
+
 * Endpoint: /addresses/ (POST)
 * Description: Create a new address with coordinates.
 * Request Body (JSON):
@@ -58,11 +63,17 @@ The application will start and be accessible at ```http://localhost:8000/docs#/`
 * Response (JSON): Returns the created address.
 
 ### 2. Read an Address
+
+![get address](https://github.com/NirajPatel07/Fast-Address-Book/assets/66070865/6c09adce-9c04-4c08-9c34-411806328ccc)
+
 * Endpoint: /addresses/{address_id} (GET)
 * Description: Retrieve an address by its ID.
 * Response (JSON): Returns the address details.
 
 ### 3. Update an Address
+
+![update addrs](https://github.com/NirajPatel07/Fast-Address-Book/assets/66070865/ce70526f-2fb7-48bf-b0c6-8ee11edf61d9)
+
 * Endpoint: /addresses/{address_id} (PUT)
 * Description: Update an existing address by its ID.
 * Request Body (JSON):
@@ -76,11 +87,17 @@ The application will start and be accessible at ```http://localhost:8000/docs#/`
 * Response (JSON): Returns the updated address.
 
 ### 4. Delete an Address
+
+![delete add](https://github.com/NirajPatel07/Fast-Address-Book/assets/66070865/cb482423-c4cb-47bc-8c6c-18fecd9a9738)
+
 * Endpoint: /addresses/{address_id} (DELETE)
 * Description: Delete an address by its ID.
 * Response (JSON): Returns the deleted address.
 
 ### 5. Get Addresses within a Distance
+
+![get_distance_rage](https://github.com/NirajPatel07/Fast-Address-Book/assets/66070865/e9690ac3-5b48-4e9e-a027-9f52097bf07c)
+
 * Endpoint: /addresses/nearby/ (GET)
 * Description: Retrieve addresses within a specified distance from a given location.
 * ### Query Parameters:
